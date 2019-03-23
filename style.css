@@ -1,0 +1,190 @@
+
+.blue1{color: #0F2147}
+.blue2{color: #37668A;}
+.blue3{color:#7699AD}
+.blue4{color: #E1F7FF}
+.gold{color: #ADA45A}
+.white{color: white}
+
+.blue1b{background: #0F2147}
+.blue2b{background: #37668A;}
+.blue3b{background:#7699AD}
+.blue4b{background: #E1F7FF}
+.goldb{background: #ADA45A}
+
+.subhead{
+    font-family: sofia-pro, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.body{   
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.navtext{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.navtextnumber{
+    font-family: Sofia Pro;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 140%;
+}
+
+.title{
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+}
+
+.navbar-brand{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.navbar{
+    position: relative;
+}
+
+.image{
+    position: relative;
+}
+
+.intro{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.btn:hover{
+    color: #0F2147;
+    background-color: white;
+    border: solid 1px #0F2147
+
+}
+
+.btn1{
+    margin-top: 150px;
+}
+
+#about{
+    background: #7699AD;
+    height: 250px;
+    padding: 7%;
+    animation: about 3s linear 0s infinite;
+}
+
+@keyframes about{
+    0% {background-color: #ADA45A} 
+    50% {background-color: #7699AD;} 
+    100% {background-color: #ADA45A;} 
+  }
+  
+
+.link{
+    text-decoration: underline;
+    transition: 1s;
+    
+}
+
+.link:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+.hotel{
+    position: relative;
+    transition: 1s;
+}
+
+.hotel:hover{
+    transform: rotateZ(360deg);
+}
+
+.hoteltxt{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 10px;
+    width: 100%;
+
+}
+
+#thingstodo{
+    background-color: #E1F7FF;
+}
+
+.link2{
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.link2:hover{
+    cursor: pointer;
+    color: #ADA45A;
+    transform: scaley(2)
+}
+
+.activity{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+.btn2{
+    padding: 4px;
+}
+
+#photogallery{
+    background: #E1F7FF;
+}
+
+.gallery{
+    position: relative;
+}
+
+.gc{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+
+
+}
+
+#footer{
+    background: #ADA45A;
+}
+
+.footeritems{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.b{
+    transition: 1s;
+}
+
+.b:hover{
+    transform: skewX(20deg);
+}
+
